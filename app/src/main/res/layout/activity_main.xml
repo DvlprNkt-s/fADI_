@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtwo"
+    tools:context=".MainActivity"
+    android:id="@+id/mainA"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="139dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/adidaslogo"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="95dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+           <!-- <com.google.android.material.card.MaterialCardView
+                android:id="@+id/info_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">-->
+
+                <LinearLayout
+                    android:id="@+id/info_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edtUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:drawableLeft="@drawable/user_name"
+                        android:hint="@string/edtName"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="24sp"
+                        app:met_baseColor="@android:color/white"
+                        app:met_floatingLabel="highlight"
+                        app:met_primaryColor="@android:color/white"
+                        app:met_singleLineEllipsis="true" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edtPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/user_pass"
+                        android:hint="@string/edtPass"
+                        android:inputType="textPassword"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="24sp"
+                        app:met_baseColor="@android:color/white"
+                        app:met_floatingLabel="highlight"
+                        app:met_primaryColor="@android:color/white"
+                        app:met_singleLineEllipsis="true"
+                       />
+
+
+                </LinearLayout>
+            <!--</com.google.android.material.card.MaterialCardView>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_login"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:paddingTop="8dp">
+
+                <Button
+                    android:id="@+id/btn_sing_in"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/buttons_singin_singup"
+                    android:text="@string/sing_in" />
+
+                <!-- <Button
+                     android:text="Зарегестрироваться"
+                     android:id="@+id/btn_sing_in"
+                     style="@style/Widget.AppCompat.Button.Colored"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:background="@drawable/buttons_singin_singup"
+                     />-->
+                <TextView
+                    android:id="@+id/txt_btn_singUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/sing_up"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

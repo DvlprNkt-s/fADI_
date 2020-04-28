@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "763234521438",
+    "firebase_url": "https://adiapp-31aaa.firebaseio.com",
+    "project_id": "adiapp-31aaa",
+    "storage_bucket": "adiapp-31aaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763234521438:android:1fe70b6cef184b00f4ffcf",
+        "android_client_info": {
+          "package_name": "com.example.fadi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763234521438-mbc02onfqg0it0ucjp4rjvshvfo19ego.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fadi",
+            "certificate_hash": "17a2e424e5b94d6a72b97ee3214e7cde0da24110"
+          }
+        },
+        {
+          "client_id": "763234521438-abh7s7srm4rvmkqpj208h642v46orcc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqrdUuHK1y-hLEX5e0sWavJwPAglHU3ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763234521438-abh7s7srm4rvmkqpj208h642v46orcc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

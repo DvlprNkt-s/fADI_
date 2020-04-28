@@ -1,0 +1,68 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#000E0D0D"
+    android:id="@+id/cardView"
+    app:cardElevation="4dp">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:id="@+id/linear">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtNewUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edtName"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="3"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtNewPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edtPass"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="4"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtNewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edtEmail"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
